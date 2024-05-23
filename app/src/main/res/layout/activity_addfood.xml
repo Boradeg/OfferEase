@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adfencebg"
+    tools:context=".Addfood">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btninsert"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:background="#018de5"
+        android:text="Upload"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_border"
+
+        android:ems="10"
+        android:hint="Shop Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <EditText
+        android:id="@+id/edaddress"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edmobile"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editem1"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Landmark"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editem2"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Food Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <EditText
+        android:id="@+id/edprice1"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="Offer"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="280dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image Here!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+</androidx.constraintlayout.widget.ConstraintLayout>

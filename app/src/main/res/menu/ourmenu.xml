@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/shop"
+        android:title="Shop Offer"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        />
+
+
+    <item android:id="@+id/place"
+        android:title="Palce"
+        android:icon="@drawable/baseline_place_24"
+        />
+
+    <item android:id="@+id/food"
+        android:title="Food"
+        android:icon="@drawable/baseline_fastfood_24"
+        />
+
+
+
+
+
+
+    <item
+        android:id="@+id/notify"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification"/>
+
+
+</menu>
