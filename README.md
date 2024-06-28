@@ -1,8 +1,3 @@
-![1](https://github.com/Boradeg/OfferEase/assets/110608207/441c0fac-2c3a-45de-8fac-8e7973d5d97e)
-
-![2](https://github.com/Boradeg/OfferEase/assets/110608207/fe27af3d-ed81-4b39-aa5c-ad66b67516d1)
-
-![3](https://github.com/Boradeg/OfferEase/assets/110608207/7d0bb61f-ff83-4d01-b5d4-1e35ec17be5c)
 
 # Offer Ease - Kotlin, Coroutines, Android, Firebase, Google maps, Remote API, ROOM Dtabase, Firebase cloud message, Notification, Authentication, Broadcast Receiver, Services.
 
@@ -13,7 +8,12 @@ OfferEase is a versatile mobile application designed to help users discover the 
 - Comprehensive Offer Details: View offer descriptions, images, shop owner contact information, and more.
 - Communication Tools: Chat, voice, and video call options to interact with shop owners directly.
 - Automated Location Detection: Shop owners' current locations are detected automatically when adding new offers.
+- 
+![1](https://github.com/Boradeg/OfferEase/assets/110608207/441c0fac-2c3a-45de-8fac-8e7973d5d97e)
 
+![2](https://github.com/Boradeg/OfferEase/assets/110608207/fe27af3d-ed81-4b39-aa5c-ad66b67516d1)
+
+![3](https://github.com/Boradeg/OfferEase/assets/110608207/7d0bb61f-ff83-4d01-b5d4-1e35ec17be5c)
 Video Demonstration
 Watch Video
 Download APK
@@ -38,19 +38,6 @@ ROOM Database: Local database management for offline support.
 Authentication: Secure user authentication.
 Broadcast Receiver: For handling background operations.
 Services: For running long-term operations.
-
-# Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/OfferEase.git
-Open the project in Android Studio.
-Build and run the app on your Android device or emulator.
-Contributing
-We welcome contributions! Please read our Contributing Guidelines for details on the code of conduct and the process for submitting pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgements
 Thanks to the Firebase team for providing a robust backend.
