@@ -6,17 +6,13 @@
 - Comprehensive Offer Details: View offer descriptions, images, shop owner contact information, and more.
 - Communication Tools: Chat, voice, and video call options to interact with shop owners directly.
 - Automated Location Detection: Shop owners current locations are detected automatically when adding new offers.
-- 
+  
 ![1](https://github.com/Boradeg/OfferEase/assets/110608207/441c0fac-2c3a-45de-8fac-8e7973d5d97e)
 
 ![2](https://github.com/Boradeg/OfferEase/assets/110608207/fe27af3d-ed81-4b39-aa5c-ad66b67516d1)
 
 ![3](https://github.com/Boradeg/OfferEase/assets/110608207/7d0bb61f-ff83-4d01-b5d4-1e35ec17be5c)
 
-Video Demonstration
-Watch Video
-Download APK
-Download APK
 # Features
 - Explore Offers: Browse product and food offers available in your area.
 - Detailed Offer Information: Access images, descriptions, and contact details of shop owners.
@@ -24,7 +20,8 @@ Download APK
 - Communication Tools: Chat, voice call, and video call functionalities with shop owners.
 - Automatic Location Detection: Shop owners' locations are automatically detected when they add new offers.
   
-# Technical Stack : - Kotlin, Coroutines, Android, Firebase, Google maps, Remote API, ROOM Dtabase, Firebase cloud message, Notification, Authentication, Broadcast Receiver, Services.
+# Technical Stack : 
+- Kotlin, Coroutines, Android, Firebase, Google maps, Remote API, ROOM Dtabase, Firebase cloud message, Notification, Authentication, Broadcast Receiver, Services.
 - Kotlin: A modern and concise language for robust Android development.
 - XML: Used for designing screens.
 - Coroutines: Efficient concurrency mechanism for non-blocking network interactions.
